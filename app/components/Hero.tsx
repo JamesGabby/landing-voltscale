@@ -2,7 +2,6 @@
 
 import { Play, ArrowRight, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
-import VideoPlayer from "./VideoPlayer";
 import LoomPlayerAdvanced from "./LoomPlayerAdvanced";
 
 export default function Hero() {
