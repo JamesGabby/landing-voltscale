@@ -40,6 +40,7 @@ export default function LoomPlayerAdvanced({
       hide_share: hideShare ? "true" : "false",
       hide_title: hideTitle ? "true" : "false",
       hideEmbedTopBar: "true",
+      t: "0",
     });
     return `https://www.loom.com/embed/${videoId}?${params.toString()}`;
   };
