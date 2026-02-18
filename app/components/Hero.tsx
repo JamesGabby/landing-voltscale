@@ -49,7 +49,7 @@ export default function Hero() {
           {/* Primary CTA - Below Video */}
           <div className="mt-3 md:mt-3 flex flex-col sm:flex-row items-center gap-4">
             <Link
-              href="https://calendly.com/jamesgabbitus"
+              href="https://calendly.com/jamesgabbitus/30min" 
               target="_blank"
               className="group inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-primary-foreground bg-electric-500 rounded-xl transition-all duration-300 ease-out-expo hover:bg-electric-600 hover:shadow-xl hover:shadow-electric-500/25 hover:gap-3 active:scale-[0.98]"
             >

@@ -61,7 +61,7 @@ export default function CTA() {
               {/* CTA Button */}
               <div className="mt-10">
                 <Link
-                  href="https://calendly.com/voltscale"
+                  href="https://calendly.com/jamesgabbitus/30min"
                   className="group inline-flex items-center justify-center gap-2 px-10 py-5 text-lg font-semibold text-primary-foreground bg-electric-500 rounded-xl transition-all duration-300 ease-out-expo hover:bg-electric-600 hover:shadow-2xl hover:shadow-electric-500/30 hover:gap-3 active:scale-[0.98]"
                 >
                   Book Your Strategy Call

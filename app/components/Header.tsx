@@ -31,7 +31,7 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-8">
             <NavLinks />
             <Link
-              href="#book-call"
+              href="https://calendly.com/jamesgabbitus/30min"
               className="inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-primary-foreground bg-electric-500 rounded-lg transition-all duration-200 ease-out-quart hover:bg-electric-600 hover:shadow-lg hover:shadow-electric-500/20 active:scale-[0.98]"
             >
               Book a Call
