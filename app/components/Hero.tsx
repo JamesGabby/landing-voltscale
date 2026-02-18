@@ -1,6 +1,6 @@
 'use client';
 
-import { Play, ArrowRight, CheckCircle2 } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import LoomPlayerAdvanced from "./LoomPlayerAdvanced";
 
@@ -40,7 +40,7 @@ export default function Hero() {
           {/* VSL Video Player - Center Stage */}
           <div className="relative w-full mt-5 md:mt-5">
             <LoomPlayerAdvanced
-              videoId="c883007278f7438abf8052809cdd1382"
+              videoId="9a504bcd2496466e8391f664df15a49a"
               title="The CRI Protocol: How Software Agencies Add \$1.5M+ to Their Pipeline"
             />
           </div>
