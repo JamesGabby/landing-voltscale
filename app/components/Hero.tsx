@@ -41,7 +41,7 @@ export default function Hero() {
           <div className="relative w-full mt-5 md:mt-5">
             <LoomPlayerAdvanced
               videoId="9a504bcd2496466e8391f664df15a49a"
-              title="The CRI Protocol: How Software Agencies Add \$1.5M+ to Their Pipeline"
+              title="The CRI Protocol: How Software Agencies Add $1.5M+ to Their Pipeline"
             />
           </div>
 
