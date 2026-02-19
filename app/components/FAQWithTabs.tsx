@@ -41,7 +41,7 @@ const faqs: FAQItem[] = [
     category: "Results",
     question: "What kind of results can I expect?",
     answer:
-      "1,800 outreaches/month at 0.5% booking rate = ~9 qualified meetings monthly. With 10% close rate and \\$50K average project value = ~\\$550,000 in new annual revenue from initial contracts alone.",
+      "1,800 outreaches/month at 0.5% booking rate = ~9 qualified meetings monthly. With 10% close rate and \$50K average project value = ~\$550,000 in new annual revenue from initial contracts alone.",
   },
   {
     category: "Results",
