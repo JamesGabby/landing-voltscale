@@ -11,7 +11,7 @@ export default function Process() {
     {
       number: "01",
       icon: <Search className="w-6 h-6" />,
-      title: "Discovery Call",
+      title: "Discovery & Demo Call",
       description: "We dive deep into your business, ICP, and goals to create a custom lead generation strategy tailored to your market.",
       duration: "Week 1",
     },

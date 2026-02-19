@@ -53,6 +53,7 @@ function NavLinks() {
     { href: "#guarantee", label: "Guarantee" },
     // { href: "#results", label: "Results" },
     { href: "#about", label: "About" },
+    { href: "#faq", label: "FAQ" },
   ];
 
   return (

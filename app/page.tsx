@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Guarantee from "./components/Guarantee";
 import Scorecard from "./components/Scorecard";
 import CalendlyWidget from "./components/CalendlyWidget";
+import FAQWithTabs from "./components/FAQWithTabs";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Process />
         <Guarantee />
         <Scorecard />
+        <FAQWithTabs />
         <CTA />
         <CalendlyWidget />
       </main>

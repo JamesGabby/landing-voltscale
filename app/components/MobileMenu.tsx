@@ -34,6 +34,7 @@ export default function MobileMenu() {
 
   const navLinks = [
     { href: "#services", label: "Services" },
+    { href: "#faq", label: "FAQ" },
     { href: "#process", label: "Process" },
     { href: "#results", label: "Results" },
     { href: "#about", label: "About" },
