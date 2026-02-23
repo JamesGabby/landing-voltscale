@@ -73,7 +73,7 @@ const faqs: FAQItem[] = [
     category: "Investment",
     question: "How does pricing work?",
     answer:
-      "Two parts. First, a one-time Setup Fee that covers the raw costs of building your outbound machine—Apollo data, domain setups, and sending infrastructure. Second, a Pay-Per-Qualified-Meeting fee for every meeting we book that actually shows up and fits your criteria. You only pay us a profit when we deliver a tangible result. The risk is incredibly low. You cover the base cost to build the machine, and everything after that is performance-based.",
+      "You only pay us a profit when we book a qualified meeting that shows up. Here's how it breaks down: \n\nFirst, a one-time Setup Fee that covers the raw costs of building your outbound machine (building your campaigns, analyzing your company, identifying your ICP, packaging your offer, conducting market research, building SOPs, signal-based data scraping, domain setups, sending infrastructure etc). \n\nSecond, a Pay-Per-Qualified-Call fee for every meeting we book that actually shows up and fits your criteria. You only pay us a profit when we deliver a tangible result. The risk is incredibly low. You cover the base cost to build the machine, and everything after that is performance-based. You're guaranteed 10 qualified leads in 90 days or we work for free until you get them.",
   },
   {
     category: "Investment",
@@ -157,7 +157,7 @@ export default function FAQWithTabs() {
 
         {/* FAQ List */}
         <div className="max-w-3xl mx-auto">
-          <div className="space-y-3">
+          <div className="space-y-3 whitespace-pre-line">
             {filteredFAQs.map((faq, index) => (
               <div
                 key={`${activeCategory}-${index}`}

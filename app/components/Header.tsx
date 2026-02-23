@@ -129,11 +129,11 @@ export default function Header() {
                 />
               </div>
               <span className="text-xl font-semibold tracking-tight text-foreground">
-  Volt<span className="text-electric-500">Scale</span>
-  <span className="ml-1.5 text-xs font-medium text-grey-400 tracking-wide mt-5">
-    Partners
-  </span>
-</span>
+                Volt<span className="text-electric-500">Scale</span>
+                <span className="ml-1.5 text-xs font-medium text-grey-400 tracking-wide mt-5">
+                  Partners
+                </span>
+              </span>
             </Link>
 
             {/* Desktop Nav */}
