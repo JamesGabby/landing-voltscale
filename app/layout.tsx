@@ -4,6 +4,7 @@ import "./globals.css";
 import SkipLink from "./components/SkipLink";
 import SmoothScroll from "./components/SmoothScroll";
 import ScrollToTop from "./components/ScrollToTop";
+import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -96,6 +97,13 @@ export default function RootLayout({
         <SmoothScroll />
         {children}
         <ScrollToTop />
+        <Script
+          id="vtag-ai-js"
+          src="https://r2.leadsy.ai/tag.js"
+          data-pid="mUkcxmZBoBE6Pedc"
+          data-version="062024"
+          strategy="afterInteractive" 
+        />
       </body>
     </html>
   );
