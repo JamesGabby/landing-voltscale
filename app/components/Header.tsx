@@ -141,7 +141,7 @@ export default function Header() {
               <NavLinks />
               <div className="ml-4 pl-4 border-l border-grey-200">
                 <Link
-                  href="https://calendly.com/jamesgabbitus/30min"
+                  href="https://calendly.com/jamesgabbitus/quick-chat"
                   target="_blank"
                   className="inline-flex items-center justify-center px-5 py-2 text-sm font-semibold text-primary-foreground bg-electric-500 rounded-lg transition-all duration-200 hover:bg-electric-600 hover:shadow-lg hover:shadow-electric-500/20 active:scale-[0.98]"
                 >

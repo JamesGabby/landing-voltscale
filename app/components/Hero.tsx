@@ -8,7 +8,7 @@ import {
   Workflow,
 } from "lucide-react";
 import Link from "next/link";
-import LoomPlayerAdvanced from "./LoomPlayerAdvanced";
+import YouTubePlayer from "./YouTubePlayer";
 
 const highlights = [
   { icon: CircleDollarSign, label: "Pay Per Qualified Call" },
@@ -43,28 +43,26 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className="text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl md:text-5xl lg:text-[3.25rem] text-balance !leading-[1.15]">
-            Add <span className="text-electric-500">$1,500,000+</span> to Your
-            Pipeline by Installing the CRI Protocol
+            Add <span className="text-electric-500">$500,000+</span> in New Monthly Client Revenue Using AI-Augmented Cold Outreach at True Scale
           </h1>
 
           {/* Subheadline */}
           <p className="mt-4 md:mt-5 text-base text-grey-600 sm:text-lg md:text-xl max-w-2xl text-pretty leading-relaxed">
-            For software agencies who want to scale without relying on referrals
-            or managing an internal SDR team.
+            For Established Software Agencies Who Want to Scale Without Buying Ads, Hiring an SDR Team, or Praying for Referrals
           </p>
 
           {/* VSL Video Player — Center Stage */}
           <div className="relative w-full mt-8 md:mt-10">
-            <LoomPlayerAdvanced
-              videoId="9a504bcd2496466e8391f664df15a49a"
-              title="The CRI Protocol: How Software Agencies Add $1.5M+ to Their Pipeline"
+            <YouTubePlayer
+              videoId="hGMqai8QfoY"
+              title="Add $500,000+ in New Monthly Client Revenue Using AI-Augmented Cold Outreach at True Scale"
             />
           </div>
 
           {/* Primary CTA */}
           <div className="mt-6 md:mt-8 flex flex-col items-center gap-3">
             <Link
-              href="https://calendly.com/jamesgabbitus/30min"
+              href="https://calendly.com/jamesgabbitus/quick-chat"
               target="_blank"
               className="group inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-primary-foreground bg-electric-500 rounded-xl transition-all duration-300 hover:bg-electric-600 hover:shadow-xl hover:shadow-electric-500/25 hover:gap-3 active:scale-[0.98]"
             >
@@ -72,7 +70,7 @@ export default function Hero() {
               <ArrowRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-0.5" />
             </Link>
             <p className="text-sm text-grey-500">
-              Free 30-min feasibility assessment · No strings attached · No sales pitch
+              Free 15-min feasibility assessment · No strings attached · No sales pitch
             </p>
           </div>
         </div>

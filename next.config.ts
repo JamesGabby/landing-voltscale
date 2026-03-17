@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: "cdn.loom.com",
         pathname: "/sessions/thumbnails/**",
       },
+      {
+        protocol: "https",
+        hostname: "img.youtube.com",
+        pathname: "/vi/**",
+      },
     ],
   },
 };
