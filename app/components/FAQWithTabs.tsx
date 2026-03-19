@@ -14,9 +14,9 @@ const faqs: FAQItem[] = [
   // About the Service
   {
     category: "Service",
-    question: "What exactly is the CRI Protocol?",
+    question: "What exactly is your service?",
     answer:
-      "The CRI (Continuous Revenue Integration) Protocol is a data-driven outbound system built specifically for software agencies. It combines two parallel processes: Signal-Based Outreach (targeting companies showing buying signals) and Cohort-Based Validation (rigorous A/B testing to find your winning message). Think of it as engineering logic applied to business development.",
+      "Data-driven outbound system built specifically for software agencies. It combines two parallel processes: Signal-Based Outreach (targeting companies showing buying signals) and Cohort-Based Validation (rigorous A/B testing to find your winning message). Think of it as engineering logic applied to business development to get high quality leads booked to your calendar weekly.",
   },
   {
     category: "Service",
@@ -47,7 +47,7 @@ const faqs: FAQItem[] = [
     category: "Results",
     question: "What counts as a 'Qualified Sales Opportunity'?",
     answer:
-      "A prospect who passes our 4-Point Scorecard: Authority (decision-maker), Stack Fit (tech alignment), Capacity (11-200 employees), and Consent (explicit agreement to meet). No bait-and-switch calls.",
+      "A prospect who passes our 4-Point Scorecard that you can customise: Authority (decision-maker), Stack Fit (tech alignment), Capacity (11-200 employees), and Consent (explicit agreement to meet). No bait-and-switch calls.",
   },
   // Process
   {
@@ -79,13 +79,13 @@ const faqs: FAQItem[] = [
     category: "Investment",
     question: "What's the ROI vs. hiring internally?",
     answer:
-      "Internal SDR team: \$150k+/year + tech stack + 6 months trial and error + management overhead. CRI Protocol: proven system from Day 1, no hiring, performance guarantee. Most see positive ROI within 2-3 closed deals.",
+      "Internal SDR team: \$150k+/year + tech stack + 6 months trial and error + management overhead. VSP: Proven system from Day 1, no hiring, dual guarantee. High ROI from just 1 closed deal from the 10 we guarantee.",
   },
   {
     category: "Investment",
     question: "Why only 2 clients per month?",
     answer:
-      "Each CRI Protocol is custom-built for your positioning and market. More clients = compromised quality. We'd rather do exceptional work for fewer clients than mediocre work for many.",
+      "Each infra/system is custom-built for your positioning and market. More clients = compromised quality. We'd rather do exceptional work for fewer clients than mediocre work for many.",
   },
   // Guarantees
   {
@@ -131,7 +131,7 @@ export default function FAQWithTabs() {
             <span className="text-electric-500"> Questions</span>
           </h2>
           <p className="mt-5 text-lg text-grey-600 max-w-2xl mx-auto">
-            Everything you need to know about the CRI Protocol.
+            Everything you need to know about the VSP Protocol.
           </p>
         </div>
 
