@@ -43,7 +43,7 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className="text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl md:text-5xl lg:text-[3.25rem] text-balance !leading-[1.15]">
-            Add <span className="text-electric-500">$500,000+</span> in New Monthly Client Revenue Using AI-Augmented Cold Outreach at True Scale
+            Add <span className="text-electric-500">$150,000–$300,000+</span> in New Monthly Client Revenue Using AI-Augmented Cold Outreach at True Scale
           </h1>
 
           {/* Subheadline */}
@@ -54,8 +54,8 @@ export default function Hero() {
           {/* VSL Video Player — Center Stage */}
           <div className="relative w-full mt-8 md:mt-10">
             <YouTubePlayer
-              videoId="hGMqai8QfoY"
-              title="Add $500,000+ in New Monthly Client Revenue Using AI-Augmented Cold Outreach at True Scale"
+              videoId="dxoKb9Rsj3Q"
+              title="How to Predictably Add $150,000–$300,000+ in New Monthly Client Revenue Using AI-Augmented Multi-Channel Cold Outreach at True Scale"
             />
           </div>
 
