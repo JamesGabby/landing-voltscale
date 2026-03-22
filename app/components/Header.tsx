@@ -7,10 +7,11 @@ import MobileMenu from "./MobileMenu";
 import { X } from "lucide-react";
 
 const bannerMessages = [
-  "⚡ Pay Per Qualified Call",
-  "🎯 10 Leads in 90 Days or We Work for Free",
-  "✅ Leads Vetted Against Our 4-Point Scorecard",
-  "⚙️ Plug into Our Hybrid Outbound Infrastructure",
+  "⚡ Pay Per Qualified Call - No Retainers, No Minimums",
+  "🎯 10 Qualified Leads in 90 Days or We Work for Free",
+  "✅ 5-Point Lead Quality Guarantee - You Define the Criteria",
+  "⚙️ AI-Augmented Cold Outbound Engineered From Scratch",
+  "🔒 Full Permanent Ownership of Every Domain, List & Sequence",
 ];
 
 export default function Header() {
@@ -67,7 +68,7 @@ export default function Header() {
             100% { transform: translateX(-50%); }
           }
           .marquee-track {
-            animation: marquee 30s linear infinite;
+            animation: marquee 60s linear infinite;
           }
           @media (prefers-reduced-motion: reduce) {
             .marquee-track {
@@ -145,7 +146,7 @@ export default function Header() {
                   target="_blank"
                   className="inline-flex items-center justify-center px-5 py-2 text-sm font-semibold text-primary-foreground bg-electric-500 rounded-lg transition-all duration-200 hover:bg-electric-600 hover:shadow-lg hover:shadow-electric-500/20 active:scale-[0.98]"
                 >
-                  Book a Call
+                  Book a Discovery Call
                 </Link>
               </div>
             </div>
@@ -161,8 +162,8 @@ export default function Header() {
 
 function NavLinks() {
   const links = [
-    { href: "#services", label: "Services" },
-    { href: "#process", label: "Process" },
+    { href: "#who-its-for", label: "Who It's For" },
+    { href: "#process", label: "How It Works" },
     { href: "#guarantee", label: "Guarantee" },
     { href: "#about", label: "About" },
     { href: "#faq", label: "FAQ" },

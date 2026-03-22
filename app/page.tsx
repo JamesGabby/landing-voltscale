@@ -1,5 +1,4 @@
 import Header from "./components/Header";
-import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Process from "./components/Process";
 import CTA from "./components/CTA";
@@ -8,17 +7,17 @@ import Guarantee from "./components/Guarantee";
 import Scorecard from "./components/Scorecard";
 import CalendlyWidget from "./components/CalendlyWidget";
 import FAQWithTabs from "./components/FAQWithTabs";
+import HeroNoVideo from "./components/HeroNoVideo";
 
 export default function Home() {
   return (
     <>
       <Header />
       <main id="main-content">
-        <Hero />
+        <HeroNoVideo />
+        <Guarantee />
         <Services />
         <Process />
-        <Guarantee />
-        <Scorecard />
         <FAQWithTabs />
         <CTA />
         <CalendlyWidget />

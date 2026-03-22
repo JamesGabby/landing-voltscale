@@ -8,16 +8,37 @@ import {
   Workflow,
 } from "lucide-react";
 import Link from "next/link";
-import YouTubePlayer from "./YouTubePlayer";
 
 const highlights = [
   { icon: CircleDollarSign, label: "Pay Per Qualified Call - No Retainers" },
   { icon: Target, label: "10 Qualified Leads in 90 Days Guaranteed" },
   { icon: ShieldCheck, label: "5-Point Lead Quality Guarantee" },
-  { icon: Workflow, label: "AI-Augmented Outbound" },
 ];
 
-export default function Hero() {
+const stats = [
+  {
+    value: "$225,000+",
+    label: "New monthly revenue",
+    sub: "at conservative benchmarks",
+  },
+  {
+    value: "15–45",
+    label: "Qualified calls per month",
+    sub: "scaling as the system matures",
+  },
+  {
+    value: "$750,000+",
+    label: "Added to your pipeline",
+    sub: "within the first 90 days",
+  },
+  {
+    value: "3,000",
+    label: "Verified prospects per month",
+    sub: "triple-verified, never recycled",
+  },
+];
+
+export default function HeroNoVideo() {
   return (
     <section className="relative pt-28 pb-6 md:pt-36 md:pb-10 lg:pt-40 lg:pb-14 overflow-hidden">
       {/* Background Gradient */}
@@ -54,16 +75,8 @@ export default function Hero() {
             SDR Team, or Praying for Referrals
           </p>
 
-          {/* VSL Video Player - Center Stage */}
-          <div className="relative w-full mt-8 md:mt-10">
-            <YouTubePlayer
-              videoId="dxoKb9Rsj3Q"
-              title="How to Predictably Add $225,000+ in New Monthly Client Revenue Using AI-Augmented Cold Email Outreach at True Scale"
-            />
-          </div>
-
           {/* Primary CTA */}
-          <div className="mt-6 md:mt-8 flex flex-col items-center gap-3">
+          <div className="mt-8 md:mt-10 flex flex-col items-center gap-3">
             <Link
               href="https://calendly.com/jamesgabbitus/quick-chat"
               target="_blank"
@@ -75,6 +88,26 @@ export default function Hero() {
             <p className="text-sm text-grey-500">
               15 minutes · No pitch · I'll tell you honestly if we're a fit
             </p>
+          </div>
+
+          {/* Stats Grid */}
+          <div className="mt-12 md:mt-16 w-full grid grid-cols-2 md:grid-cols-4 gap-px bg-electric-100/60 rounded-2xl overflow-hidden border border-electric-200/60">
+            {stats.map((stat, i) => (
+              <div
+                key={i}
+                className="flex flex-col items-center justify-center gap-1 px-4 py-6 bg-white/80 backdrop-blur-sm"
+              >
+                <span className="text-2xl md:text-3xl font-extrabold text-electric-500 tracking-tight">
+                  {stat.value}
+                </span>
+                <span className="text-sm font-semibold text-foreground text-center">
+                  {stat.label}
+                </span>
+                <span className="text-xs text-grey-400 text-center leading-snug">
+                  {stat.sub}
+                </span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

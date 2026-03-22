@@ -22,7 +22,7 @@ export default function YouTubePlayer({
   const [showControls, setShowControls] = useState(true);
   const controlsTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-  // YouTube thumbnail — maxresdefault gives best quality
+  // YouTube thumbnail - maxresdefault gives best quality
   const staticThumbnail =
     thumbnailUrl || `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
 

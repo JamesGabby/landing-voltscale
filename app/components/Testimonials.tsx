@@ -17,7 +17,7 @@ export default function Testimonials() {
       role: "CEO",
       company: "DataStack",
       avatar: "/avatars/avatar-2.jpg",
-      metric: "\$2.4M pipeline generated",
+      metric: "$2.4M pipeline generated",
     },
     {
       quote: "We were skeptical after trying other agencies, but VoltScale proved us wrong within the first month. Booked 23 qualified meetings in week three.",
