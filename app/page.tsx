@@ -8,6 +8,7 @@ import Scorecard from "./components/Scorecard";
 import CalendlyWidget from "./components/CalendlyWidget";
 import FAQWithTabs from "./components/FAQWithTabs";
 import HeroNoVideo from "./components/HeroNoVideo";
+import WhoItsFor from "./components/WhoItsFor";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <main id="main-content">
         <HeroNoVideo />
+        <WhoItsFor />
         <Guarantee />
         <Services />
         <Process />
