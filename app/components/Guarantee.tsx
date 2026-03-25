@@ -73,7 +73,7 @@ export default function Guarantee() {
                 <p className="text-lg font-semibold text-foreground text-center">
                   If we don't deliver{" "}
                   <span className="text-electric-600">
-                    10 qualified leads
+                    15 qualified leads
                   </span>{" "}
                   within the first{" "}
                   <span className="text-electric-600">90 days</span>…

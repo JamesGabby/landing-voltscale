@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const highlights = [
   { icon: CircleDollarSign, label: "Pay Per Qualified Call - No Retainers" },
-  { icon: Target, label: "10 Qualified Leads in 90 Days Guaranteed" },
+  { icon: Target, label: "15 qualified Leads in 90 Days Guaranteed" },
   { icon: ShieldCheck, label: "5-Point Lead Quality Guarantee" },
 ];
 

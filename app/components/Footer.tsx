@@ -64,7 +64,7 @@ export default function Footer() {
               pay-per-call basis, with no retainers and no monthly minimums.
             </p>
             <p className="text-grey-500 text-sm leading-relaxed mb-6 max-w-sm">
-              10 qualified leads in 90 days, or we work for free until we do.
+              15 qualified leads in 90 days, or we work for free until we do.
             </p>
             {/* Social Links */}
             <div className="flex gap-3">

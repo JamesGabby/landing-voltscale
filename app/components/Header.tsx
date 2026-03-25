@@ -8,7 +8,7 @@ import { X } from "lucide-react";
 
 const bannerMessages = [
   "⚡ Pay Per Qualified Call - No Retainers, No Minimums",
-  "🎯 10 Qualified Leads in 90 Days or We Work for Free",
+  "🎯 15 qualified Leads in 90 Days or We Work for Free",
   "✅ 5-Point Lead Quality Guarantee - You Define the Criteria",
   "⚙️ AI-Augmented Cold Outbound Engineered From Scratch",
   "🔒 Full Permanent Ownership of Every Domain, List & Sequence",

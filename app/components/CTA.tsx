@@ -5,7 +5,7 @@ export default function CTA() {
   const benefits = [
     "15 minutes - no pitch, no pressure",
     "I'll tell you honestly if we're the right fit",
-    "10 qualified leads in 90 days or we work for free",
+    "15 qualified leads in 90 days or we work for free",
     "Pay per qualified call - no retainers, no minimums",
     "Full permanent ownership of everything we build",
     "One closed deal pays back the entire engagement",

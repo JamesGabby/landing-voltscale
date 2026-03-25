@@ -35,13 +35,13 @@ const faqs: FAQItem[] = [
     category: "Results",
     question: "How long until I see results?",
     answer:
-      "The infrastructure warmup takes a mandatory two weeks - but we start it on day one so it costs you zero additional calendar time. ICP research, list building, and sequence writing all run in parallel during that window.\n\nBy day 14, the list is built, sequences are approved, and we launch immediately. First qualified meetings typically appear within weeks two to four of launch. Our quantity guarantee commits us to 10 qualified leads within 90 days.",
+      "The infrastructure warmup takes a mandatory two weeks - but we start it on day one so it costs you zero additional calendar time. ICP research, list building, and sequence writing all run in parallel during that window.\n\nBy day 14, the list is built, sequences are approved, and we launch immediately. First qualified meetings typically appear within weeks two to four of launch. Our quantity guarantee commits us to 15 qualified leads within 90 days.",
   },
   {
     category: "Results",
     question: "What kind of results can I expect?",
     answer:
-      "The conservative benchmark: 3,000 verified prospects per month at a 0.5% booking rate delivers 10 qualified calls. At a 20% close rate and $75,000 average deal size, that's 3 new clients per month - $225,000 in new monthly revenue.\n\nOnce the AI buying-signal layer is active - typically within the first 30–45 days - most agencies see booking rates climb to 1.5% or higher. That's the same 3,000 prospects delivering 45+ calls per month, pushing new monthly revenue toward $300,000–$450,000+.\n\nThese numbers are the floor, not the ceiling. We build to the conservative case and let the system outperform it.",
+      "The conservative benchmark: 3,000 verified prospects per month at a 0.5% booking rate delivers 15 qualified calls. At a 20% close rate and $75,000 average deal size, that's 3 new clients per month - $225,000 in new monthly revenue.\n\nOnce the AI buying-signal layer is active - typically within the first 30–45 days - most agencies see booking rates climb to 1.5% or higher. That's the same 3,000 prospects delivering 45+ calls per month, pushing new monthly revenue toward $300,000–$450,000+.\n\nThese numbers are the floor, not the ceiling. We build to the conservative case and let the system outperform it.",
   },
   {
     category: "Results",
@@ -92,7 +92,7 @@ const faqs: FAQItem[] = [
     category: "Guarantees",
     question: "What are the guarantees exactly?",
     answer:
-      "There are two.\n\nQuantity guarantee: we deliver 10 qualified leads within 90 days. If we don't, we work for free until we do.\n\nQuality guarantee: every lead must meet all five criteria you define and control. If any lead falls short on any of them, you don't pay for it. Period.\n\nNo caveats. No small print. The risk is entirely on our shoulders to perform.",
+      "There are two.\n\nQuantity guarantee: we deliver 15 qualified leads within 90 days. If we don't, we work for free until we do.\n\nQuality guarantee: every lead must meet all five criteria you define and control. If any lead falls short on any of them, you don't pay for it. Period.\n\nNo caveats. No small print. The risk is entirely on our shoulders to perform.",
   },
   {
     category: "Guarantees",
