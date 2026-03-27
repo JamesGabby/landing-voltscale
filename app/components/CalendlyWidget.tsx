@@ -6,7 +6,7 @@ const CalendlyWidget = () => {
       {/* The Widget Container */}
       <div 
         className="calendly-inline-widget" 
-        data-url="https://calendly.com/jamesgabbitus/quick-chat" 
+        data-url="https://calendly.com/voltscalepartners/quick-chat" 
         style={{ minWidth: '320px', height: '700px' }} 
       />
 

@@ -230,7 +230,7 @@ export default function FAQWithTabs() {
               you - and if I'm not, I'll tell you that plainly.
             </p>
             <Link
-              href="https://calendly.com/jamesgabbitus/quick-chat"
+              href="https://calendly.com/voltscalepartners/quick-chat"
               target="_blank"
               className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-primary-foreground bg-electric-500 rounded-xl hover:bg-electric-600 transition-all active:scale-[0.98]"
             >

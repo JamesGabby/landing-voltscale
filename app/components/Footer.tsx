@@ -14,7 +14,7 @@ export default function Footer() {
       { name: "FAQ", href: "#faq" },
     ],
     engagement: [
-      { name: "Book a Discovery Call", href: "https://calendly.com/jamesgabbitus/quick-chat" },
+      { name: "Book a Discovery Call", href: "https://calendly.com/voltscalepartners/quick-chat" },
       { name: "Privacy Policy", href: "/privacy" },
       { name: "Terms of Service", href: "/terms" },
     ],
@@ -127,7 +127,7 @@ export default function Footer() {
                 be at full price.
               </p>
               <Link
-                href="https://calendly.com/jamesgabbitus/quick-chat"
+                href="https://calendly.com/voltscalepartners/quick-chat"
                 target="_blank"
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-electric-400 hover:text-electric-300 transition-colors duration-200"
               >
